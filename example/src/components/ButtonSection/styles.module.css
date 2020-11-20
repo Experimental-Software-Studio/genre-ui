@@ -1,0 +1,10 @@
+.buttonSection > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.buttonSection > div > div > button {
+  margin: 12px;
+}

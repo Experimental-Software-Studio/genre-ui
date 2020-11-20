@@ -1,0 +1,123 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/layout.scss';
+
+.button {
+  background-color: $light-gray;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: $padding-small $padding-medium;
+  transition: background-color 100ms ease;
+
+  &:focus-visible,
+  &:hover {
+    background-color: $gray;
+  }
+}
+
+.angled {
+  transform: skew(-12deg);
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.round {
+  border-radius: 12px;
+}
+
+.circle {
+  border-radius: 100px;
+}
+
+.primary {
+  background-color: $blue;
+  color: $white;
+
+  &:focus-visible,
+  &:hover {
+    background-color: $dark-blue;
+  }
+}
+
+.secondary {
+  background-color: $red;
+  color: $white;
+
+  &:focus-visible,
+  &:hover {
+    background-color: $dark-red;
+  }
+}
+
+.disabled {
+  color: $gray;
+  cursor: not-allowed;
+
+  &:focus-visible,
+  &:hover {
+    background-color: $light-gray;
+  }
+}
+
+.outlined {
+  background: none;
+  border: 1px solid $dark-gray;
+  color: $black;
+
+  &.primary {
+    border-color: $blue;
+    color: $blue;
+  }
+
+  &.secondary {
+    border-color: $red;
+    color: $red;
+  }
+
+  &:focus-visible,
+  &:hover {
+    background-color: $light-gray;
+  }
+
+  &.disabled {
+    border-color: $gray;
+    color: $gray;
+    cursor: not-allowed;
+
+    &:focus-visible,
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+.empty {
+  background: none;
+  border: none;
+
+  &.primary {
+    color: $blue;
+  }
+
+  &.secondary {
+    color: $red;
+  }
+
+  &:focus-visible,
+  &:hover {
+    background-color: $light-gray;
+  }
+
+  &.disabled {
+    color: $gray;
+    cursor: not-allowed;
+
+    &:focus-visible,
+    &:hover {
+      background: none;
+    }
+  }
+}

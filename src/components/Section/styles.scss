@@ -1,0 +1,7 @@
+@import 'src/styles/layout.scss';
+
+.section {
+  margin: 0 auto;
+  max-width: $max-page-width;
+  padding: $padding-medium $padding-xlarge;
+}
