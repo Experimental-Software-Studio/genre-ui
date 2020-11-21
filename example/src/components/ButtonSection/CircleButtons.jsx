@@ -3,7 +3,7 @@ import React from 'react'
 
 export const CircleButtons = () => (
   <Section>
-    <h2>Contained</h2>
+    <h2>Filled</h2>
     <div>
       <Button shape='circle' text='Default' />
       <Button shape='circle' text='Primary' type='primary' />

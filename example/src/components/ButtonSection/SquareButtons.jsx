@@ -3,7 +3,7 @@ import React from 'react'
 
 export const SquareButtons = () => (
   <Section>
-    <h2>Contained</h2>
+    <h2>Filled</h2>
     <div>
       <Button text='Default' />
       <Button text='Primary' type='primary' />

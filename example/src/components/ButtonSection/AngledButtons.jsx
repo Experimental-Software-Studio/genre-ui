@@ -3,7 +3,7 @@ import React from 'react'
 
 export const AngledButtons = () => (
   <Section>
-    <h2>Contained</h2>
+    <h2>Filled</h2>
     <div>
       <Button shape='angled' text='Default' />
       <Button shape='angled' text='Primary' type='primary' />

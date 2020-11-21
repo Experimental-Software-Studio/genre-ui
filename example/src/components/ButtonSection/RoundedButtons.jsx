@@ -3,7 +3,7 @@ import React from 'react'
 
 export const RoundedButtons = () => (
   <Section>
-    <h2>Contained</h2>
+    <h2>Filled</h2>
     <div>
       <Button shape='rounded' text='Default' />
       <Button shape='rounded' text='Primary' type='primary' />
