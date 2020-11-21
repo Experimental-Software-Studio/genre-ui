@@ -10,19 +10,21 @@
 npm install --save genre-ui
 ```
 
+or
+
+```bash
+yarn add genre-ui
+```
+
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'genre-ui'
+import { MyComponent } from 'genre-ui'
 import 'genre-ui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const Example = () => <MyComponent />
 ```
 
 ## License
